@@ -650,7 +650,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Vekpod</h4>
                         <p>App</p>
@@ -664,7 +664,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Web 3</h4>
                         <p>Web</p>
@@ -678,7 +678,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>App 2</h4>
                         <p>App</p>
@@ -692,7 +692,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Card 2</h4>
                         <p>Card</p>
