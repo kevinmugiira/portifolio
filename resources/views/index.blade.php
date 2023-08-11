@@ -45,7 +45,7 @@
         <h1><a href="{{url('index')}}">Kevin Mugiira</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         {{--        <a href="index.html" class="mr-auto"><img src="{{asset('asset2/img/logo.png')}}" alt="" class="img-fluid"></a> --}}
-        <h2>I'm a passionate <span>Software Developer</span> from Nairobi Kenya</h2>
+        <h2>A passionate <span>Software Developer</span> from Nairobi Kenya</h2>
 
         <nav id="navbar" class="navbar">
             <ul>
