@@ -868,16 +868,16 @@
 </div>
 
 <!-- Vendor JS Files -->
-<script src="{{asset('asset2/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-<script src="{{asset('asset2/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('asset2/vendor/glightbox/js/glightbox.min.js')}}"></script>
-<script src="{{asset('asset2/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-<script src="{{asset('asset2/vendor/swiper/swiper-bundle.min.js')}}"></script>
-<script src="{{asset('asset2/vendor/waypoints/noframework.waypoints.js')}}"></script>
-<script src="{{asset('asset2/vendor/php-email-form/validate.js')}}"></script>
+<script src="asset2/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="asset2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="asset2/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="asset2/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="asset2/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="asset2/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="asset2/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="{{asset('asset2/js/main.js')}}"></script>
+<script src="asset2/js/main.js"></script>
 
 </body>
 
