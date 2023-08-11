@@ -54,7 +54,7 @@
                 <li><a class="nav-link" href="#resume">Resume</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
                 <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -652,10 +652,10 @@
                 <div class="portfolio-wrap">
                     <img src="{{asset('asset2/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>App 1</h4>
+                        <h4>Vekpod</h4>
                         <p>App</p>
                         <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="{{asset('asset2/img/portfolio/logo.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
