@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Personal Bootstrap Template</title>
+    <title>Kevin Mugiira</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('asset2/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('asset2/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('asset2/img/me.jpg')}}" rel="icon">
+    <link href="{{asset('asset2/img/me.jpg')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -50,7 +50,8 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link active" href="#header">Home</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#bio">Bio</a></li>
+                <li><a class="nav-link" href="#pitch">Pitch video</a></li>
                 <li><a class="nav-link" href="#resume">Resume</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
                 <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
@@ -60,9 +61,10 @@
         </nav><!-- .navbar -->
 
         <div class="social-links">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+            <a href="#" class="github"><i class="bi bi-github"></i></a>
+            <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+            <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
 
@@ -70,13 +72,13 @@
 </header><!-- End Header -->
 
 <!-- ======= About Section ======= -->
-<section id="about" class="about">
+<section id="bio" class="about">
 
     <!-- ======= About Me ======= -->
     <div class="about-me container">
 
         <div class="section-title">
-            <h2>About</h2>
+            <h2>Bio</h2>
             <p>Learn more about me</p>
         </div>
 
@@ -125,7 +127,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Happy Clients</p>
                 </div>
             </div>
@@ -133,7 +135,7 @@
             <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                 <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Projects</p>
                 </div>
             </div>
@@ -141,7 +143,7 @@
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                 <div class="count-box">
                     <i class="bi bi-headset"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="763" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Hours Of Support</p>
                 </div>
             </div>
@@ -149,7 +151,7 @@
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                 <div class="count-box">
                     <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="05" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Awards</p>
                 </div>
             </div>
@@ -382,7 +384,7 @@
                         </p>
                         <img src="{{asset('asset2/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
                         <h3>Patrick Kigen</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <h4>Project Manager</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -449,6 +451,26 @@
     </div><!-- End Testimonials  -->
 
 </section><!-- End About Section -->
+
+<!-- ====== Elevator Pitch Video Section ====== -->
+<section id="pitch" class="pitch">
+    <!-- ======= Elevator Pitch ======= -->
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Elevator Pitch Video</h2>
+            <p>Watch Kevin's Elevator Pitch</p>
+        </div>
+
+        <div class="row">
+            <h4>Video comming soon!!</h4>
+            <video src=""></video>
+        </div>
+
+    </div><!-- End Elevator Pitch -->
+</section>
+<!-- End Elevator Pitch Section -->
+
 
 <!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
@@ -640,7 +662,7 @@
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">All</li>
                     <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-card">Card</li>
+                    <!-- <li data-filter=".filter-card">Card</li> -->
                     <li data-filter=".filter-web">Web</li>
                 </ul>
             </div>
@@ -650,13 +672,13 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/cover2.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Vekpod</h4>
-                        <p>App</p>
+                        <h4>Mfumbuzi Project Youtube Link</h4>
+                        <p>Youtube Link</p>
                         <div class="portfolio-links">
-                            <a href="asset2/img/portfolio/logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="asset2/img/portfolio/cover2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="https://www.youtube.com/watch?v=ZmmbaNCOhiA&ab_channel=KevinMugiira" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -664,13 +686,13 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/electric-prices.jpg')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Web 3</h4>
+                        <h4>Integrity Power Solutions</h4> <!-- Web 3 -->
                         <p>Web</p>
                         <div class="portfolio-links">
                             <a href="{{asset('asset2/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="https://oscarsolutions-88c08c94412c.herokuapp.com/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -678,19 +700,19 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/cover.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>App 2</h4>
-                        <p>App</p>
+                        <h4>Mfumbuzi</h4>
+                        <p>Mfumbuzi Group Project Slide Deck</p>
                         <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="{{asset('asset2/img/portfolio/cover.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mfumbuzi project slide deck"><i class="bx bx-plus"></i></a>
+                            <a href="https://docs.google.com/presentation/d/12r0GC9b3JBy5PfZRWVkG9qb9H3BLAIqWkbS1R8sZ7bI/edit#slide=id.g2599ac2345b_6_75" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
                     <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
@@ -772,7 +794,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
