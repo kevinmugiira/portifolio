@@ -55,7 +55,7 @@
                 <li><a class="nav-link" href="#resume">Resume</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
                 <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -678,7 +678,7 @@
                         <p>Youtube Link</p>
                         <div class="portfolio-links">
                             <a href="asset2/img/portfolio/cover2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="https://www.youtube.com/watch?v=ZmmbaNCOhiA&ab_channel=KevinMugiira" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="https://www.youtube.com/watch?v=ZmmbaNCOhiA&ab_channel=KevinMugiira" data-gallery="portfolioDetailsGallery" ><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
