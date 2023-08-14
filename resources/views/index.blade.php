@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="asset2/img/me.jpg" rel="icon">
-    <link href="asset2/img/me.jpg" rel="apple-touch-icon">
+    <link href="asset2/img/im2.jpg" rel="icon">
+    <link href="asset2/img/im2.jpg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -62,10 +62,10 @@
 
         <div class="social-links">
             <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
-            <a href="#" class="github"><i class="bi bi-github"></i></a>
+            <a href="https://github.com/kevinmugiira/" class="github"><i class="bi bi-github"></i></a>
             <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
             <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/kevin-mugiira-b7a06b128/" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
 
     </div>
@@ -84,7 +84,7 @@
 
         <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-                <img src="{{asset('asset2/img/me.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('asset2/img/im2.jpg')}}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Back-end Developer (Spring Boot &amp; Laravel)</h3>
@@ -379,10 +379,10 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                            Self propelled individual with greate programming skills. Well composed and does tasks in a perfectionist manner.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{asset('asset2/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{asset('asset2/img/KigenPatrick.png')}}" class="testimonial-img" alt="">
                         <h3>Patrick Kigen</h3>
                         <h4>Project Manager</h4>
                     </div>
@@ -392,7 +392,7 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                            Looking forward to seeing you grow into the leader that you are. Well equipped for the professional journey in tech.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="{{asset('asset2/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
@@ -405,7 +405,7 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                            Has exhibited a deep understanding of complex IT concepts and has applied this knowledge effectively in both coursework and practical projects. His ability to grasp new technologies swiftly and apply them innovatively is truly commendable.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="{{asset('asset2/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
@@ -418,10 +418,10 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                            Kevin is responsible for managing our social media platforms and he has proven to be an invaluable asset to our team, leveraging his technical skills to elevate our online presence to new heights.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{asset('asset2/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{asset('asset2/img/KaregiSusan.png')}}" class="testimonial-img" alt="">
                         <h3>Susan Karegi</h3>
                         <h4>Entrepreneur</h4>
                     </div>
@@ -431,10 +431,10 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                            Testimonial comming soon !!
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{asset('asset2/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{asset('asset2/img/alxlogo.png')}}" class="testimonial-img" alt="">
                         <h3>African Leadership X (ALX)</h3>
                         <h4>Tech Programme</h4>
                     </div>
