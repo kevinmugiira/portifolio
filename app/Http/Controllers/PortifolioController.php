@@ -16,7 +16,7 @@ class PortifolioController extends Controller
 
     public function sendEmail(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
         $details = [
             'name' => $request->name,
             'email' => $request->email,
@@ -24,9 +24,15 @@ class PortifolioController extends Controller
             'message' => $request->message
         ];
 
-        dd($details);
+        // dd($details);
 
         Mail::to('kevinmugiira@gmail.com')->send(new ContactEmail($details));
-        return back()->with('sent-message','Message sent successfully!');
+        return redirect()->back()->with('sent_message', 'Your message has been sent. Thank you!');
+    }
+
+    public function send(Request $request) 
+    {
+        dd($request->all());
+        return back()->with('sent-message','Sent!!');
     }
 }

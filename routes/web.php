@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('index', [\App\Http\Controllers\PortifolioController::class, 'index']);
 Route::post('send-mail', [\App\Http\Controllers\PortifolioController::class, 'sendEmail']);
+Route::post('send', [\App\Http\Controllers\PortifolioController::class, 'send']);

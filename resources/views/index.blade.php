@@ -34,6 +34,9 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
+   
+
 </head>
 
 <body>
@@ -41,6 +44,13 @@
 <!-- ======= Header ======= -->
 <header id="header">
     <div class="container">
+
+    @if(Session::get('sent_message'))
+                  <div class="alert alert-success" role="alert">
+                      {{Session::get('sent_message')}}
+                  </div>
+        @endif
+
 
         <h1><a href="{{url('index')}}">Kevin Mugiira</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -55,7 +65,7 @@
                 <li><a class="nav-link" href="#resume">Resume</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
                 <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -850,9 +860,12 @@
             </div>
         </div>
 
-        <form action="{{url('send-mail')}}" method="post" enctype="multipart/form-data" role="form" class="php-email-form mt-4">
+        
 
-           {{csrf_field()}}
+
+        <form action="{{url('send-mail')}}" method="post" enctype="multipart/form-data" role="form" >
+
+           @csrf
 
             <div class="row">
                 <div class="col-md-6 form-group">
@@ -869,9 +882,9 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <!-- <div class="loading">Loading</div> -->
+                <!-- <div class="error-message"></div> -->
+                <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
             </div>
             <div class="text-center">
                 <button type="submit">Send Message</button>
