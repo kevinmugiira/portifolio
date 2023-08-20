@@ -27,17 +27,30 @@
     <!-- Template Main CSS File -->
     <link href="asset2/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Personal
-    * Updated: Jul 27 2023 with Bootstrap v5.3.1
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-
-
-
 </head>
+
+<style>
+    .video-container {
+        max-width: 800px; /* Set a maximum width for the video player */
+        margin: 0 auto; /* Center the video player horizontally */
+    }
+
+    /* Optional: Style the video player controls */
+    video {
+        width: 100%;
+    }
+
+    /* Additional styling for the play button */
+    .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+</style>
 
 <body>
 
@@ -472,8 +485,12 @@
         </div>
 
         <div class="row">
-            <h4>Video comming soon!!</h4>
-            <video src=""></video>
+            <div class="video-container">
+                <video id="video-player" controls>
+                    <source src="asset2/champ.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
 
     </div><!-- End Elevator Pitch -->
@@ -900,6 +917,20 @@
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
     Designed by <a href="kevinmugiira.com">Kevin Mugiira</a>
 </div>
+
+
+<script>
+    const videoPlayer = document.getElementById('video-player');
+    const playButton = document.querySelector('.play-button');
+
+    playButton.addEventListener('click', () => {
+        if (videoPlayer.paused || videoPlayer.ended) {
+            videoPlayer.play();
+        } else {
+            videoPlayer.pause();
+        }
+    });
+</script>
 
 <!-- Vendor JS Files -->
 <script src="asset2/vendor/purecounter/purecounter_vanilla.js"></script>
