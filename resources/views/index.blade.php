@@ -35,7 +35,7 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 
-   
+
 
 </head>
 
@@ -99,23 +99,22 @@
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Back-end Developer (Spring Boot &amp; Laravel)</h3>
                 <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Specialized in designing and building scalable, modular applications using the Spring framework, allowing for efficient and independent development, deployment, and maintenance of microservices-based systems.
                 </p>
                 <div class="row">
                     <div class="col-lg-6">
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Dec 1993</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.veksohntech.com  kevinm@net-co.online</span></li>
+{{--                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Dec 1993</span></li>--}}
+                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://bit.ly/kevinmugiira  </span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 710 955 090</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi, KENYA</span></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+{{--                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>--}}
                             <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Advanced</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>kevinmugiira@gmail.com</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>kevinmugiira@gmail.com kevinm@net-co.online</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Freelance/Work:</strong> <span>Available</span></li>
                         </ul>
                     </div>
@@ -137,7 +136,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="05" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Happy Clients</p>
                 </div>
             </div>
@@ -405,7 +404,7 @@
                             Looking forward to seeing you grow into the leader that you are. Well equipped for the professional journey in tech.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{asset('asset2/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+{{--                        <img src="{{asset('asset2/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">--}}
                         <h3>Robert Leposo</h3>
                         <h4>Database Administrator</h4>
                     </div>
@@ -418,7 +417,7 @@
                             Has exhibited a deep understanding of complex IT concepts and has applied this knowledge effectively in both coursework and practical projects. His ability to grasp new technologies swiftly and apply them innovatively is truly commendable.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{asset('asset2/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+{{--                        <img src="{{asset('asset2/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">--}}
                         <h3>Benson Okebe</h3>
                         <h4>Chairman KU ICT Department</h4>
                     </div>
@@ -835,11 +834,11 @@
                     <i class="bx bx-share-alt"></i>
                     <h3>Social Profiles</h3>
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="https://github.com/kevinmugiira/" class="github"><i class="bi bi-github"></i></a>
                         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+{{--                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>--}}
+                        <a href="https://www.linkedin.com/in/kevin-mugiira-b7a06b128/" class="linkedin"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -860,7 +859,7 @@
             </div>
         </div>
 
-        
+
 
 
         <form action="{{url('send-mail')}}" method="post" enctype="multipart/form-data" role="form" >
