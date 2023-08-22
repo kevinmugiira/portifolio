@@ -58,9 +58,9 @@
 <header id="header">
     <div class="container">
 
-    @if(Session::get('sent_message'))
+    @if(Session::get('sent-message'))
                   <div class="alert alert-success" role="alert">
-                      {{Session::get('sent_message')}}
+                      {{Session::get('sent-message')}}
                   </div>
         @endif
 
@@ -126,7 +126,7 @@
                     <div class="col-lg-6">
                         <ul>
 {{--                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>--}}
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Advanced</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc Information Technology</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>kevinmugiira@gmail.com kevinm@net-co.online</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Freelance/Work:</strong> <span>Available</span></li>
                         </ul>
@@ -401,12 +401,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Self propelled individual with greate programming skills. Well composed and does tasks in a perfectionist manner.
+                            Self-propelled individual with greate programming skills. Well composed and does tasks in a perfectionist manner.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="{{asset('asset2/img/KigenPatrick.png')}}" class="testimonial-img" alt="">
                         <h3>Patrick Kigen</h3>
-                        <h4>Project Manager</h4>
+                        <h4>Research Analyst</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -432,7 +432,7 @@
                         </p>
 {{--                        <img src="{{asset('asset2/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">--}}
                         <h3>Benson Okebe</h3>
-                        <h4>Chairman KU ICT Department</h4>
+                        <h4>Chairman KU CIT Department</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -504,7 +504,7 @@
 
         <div class="section-title">
             <h2>Resume</h2>
-            <p>Check My Resume</p>
+            <p>Check out My Resume</p>
         </div>
 
         <div class="row">
@@ -879,7 +879,7 @@
 
 
 
-        <form action="{{url('send-mail')}}" method="post" enctype="multipart/form-data" role="form" >
+        <form action="{{url('send-mail')}}" method="post" enctype="multipart/form-data" role="form" class=" mt-4" >
 
            @csrf
 
@@ -891,16 +891,20 @@
                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
             </div>
-            <div class="form-group mt-3">
+            <div class=" form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
-            <div class="form-group mt-3">
+            <div class=" form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="my-3">
-                <!-- <div class="loading">Loading</div> -->
-                <!-- <div class="error-message"></div> -->
-                <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
+{{--                <div class="loading">Loading</div>--}}
+                @if(session('sent-message'))
+                    <div class= sent-message">Your message has been sent. Thank you!</div>
+{{--                  <div class="php-email-form sent-message">{{ session('sent-message') }}</div>--}}
+                @else
+                    <div class="error-message"></div>
+                @endif
             </div>
             <div class="text-center">
                 <button type="submit">Send Message</button>
