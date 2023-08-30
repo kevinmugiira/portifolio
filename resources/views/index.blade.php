@@ -701,7 +701,7 @@
                     <img src="{{asset('asset2/img/portfolio/cover2.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Mfumbuzi Project Youtube Link</h4>
-                        <p>Youtube Link</p>
+                        <p>YouTube Link</p>
                         <div class="portfolio-links">
                             <a href="asset2/img/portfolio/cover2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                             <a href="https://www.youtube.com/watch?v=ZmmbaNCOhiA&ab_channel=KevinMugiira" data-gallery="portfolioDetailsGallery" ><i class="bx bx-link"></i></a>
@@ -738,21 +738,35 @@
                 </div>
             </div>
 
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/logo.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/portfolio/bitnine.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Card 2</h4>
-                        <p>Card</p>
+                        <h4>Bitnine</h4>
+                        <p>Bitnine.net Clone </p>
                         <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-4.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="https://bitnine.net/wp-content/uploads/2023/08/bitnine-logo_.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bitnine logo"><i class="bx bx-plus"></i></a>
+                            <a href="https://github.com/kevinmugiira/bitnine2" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="{{asset('asset2/img/portfolio/shot1qs.png')}}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Qua Sure</h4> <!-- Web 3 -->
+                        <p>Web</p>
+                        <div class="portfolio-links">
+                            <a href="{{asset('asset2/img/portfolio/shot4qs.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web App"><i class="bx bx-plus"></i></a>
+                            <a href="https://github.com/kevinmugiira/qs" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                     <img src="{{asset('asset2/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
