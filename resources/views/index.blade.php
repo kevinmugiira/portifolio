@@ -50,6 +50,21 @@
         cursor: pointer;
     }
 
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #18d26e;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+    }
+    .button:hover {
+        background-color: #c2c7c7;
+    }
+
 </style>
 
 <body>
@@ -77,7 +92,7 @@
                 <li><a class="nav-link" href="#pitch">Pitch video</a></li>
                 <li><a class="nav-link" href="#resume">Resume</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
-                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link" href="#portfolio">Portifolio</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -107,7 +122,7 @@
 
         <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-                <img src="{{asset('asset2/img/im2.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('asset2/img/509.jpg')}}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Back-end Developer (Spring Boot &amp; Laravel)</h3>
@@ -117,15 +132,13 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul>
-{{--                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Dec 1993</span></li>--}}
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://bit.ly/kevinmugiira  </span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://bit.ly/kevin-mugiira  </span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 710 955 090</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi, KENYA</span></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <ul>
-{{--                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>--}}
                             <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc Information Technology</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>kevinmugiira@gmail.com kevinm@net-co.online</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Freelance/Work:</strong> <span>Available</span></li>
@@ -505,6 +518,9 @@
         <div class="section-title">
             <h2>Resume</h2>
             <p>Check out My Resume</p>
+            <h4>
+                <a class="button" href="https://docs.google.com/document/d/1jd5OXGjxC0W_4mEYOjE2QjgXNlA-9a3k/edit?usp=sharing&ouid=103774388930545684876&rtpof=true&sd=true">View my CV</a>
+            </h4>
         </div>
 
         <div class="row">
@@ -546,36 +562,38 @@
             <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
+                    <h4>Spring Boot Developer</h4>
+                    <h5>2022 May - 2022 September - Present</h5>
+                    <p><em>Eclectics International, Nairobi, Kenya</em></p>
+                    <p>
+                    <ul>
+                        <li>Working in the Support Department to debug, add functionality and provide solutions to problems encountered by users from our various ESB channels.</li>
+                        <li>Develop end-points for web and mobile consumption.</li>
+                        <li>Managing projects asynchronously while under pressure</li>
+                        <li>Prepared project documentation covering the development and delivery of the product.</li>
+                        <li>Consulting with fellow developers to come up with the best third party integration sources and architectures.</li>
+                        <li>Creating project presentations and proposals for products delivery.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <h4>AWS & Foundations in Leadership</h4>
+                    <h5>2023 July - Present (awaiting)</h5>
+                    <p><em>Amazon Web Services (AWS), African Leadership Group X (ALX), Nairobi, Kenya</em></p>
+                    <p>
+                    <ul>
+                        <li>Cloud Services provision with AWS. (AWS Cloud Practitioner Certified)</li>
+                        <li>Developing end-points for the Mfumbuzi ALX group mobile app project.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
                     <h4>Full Stack (Laravel) Developer</h4>
                     <h5>2023 Jan - 2023 April</h5>
                     <p><em>Kenyatta University, Nairobi, Kenya </em></p>
                     <p>
                     <ul>
                         <li>Lead in the design, development, and implementation of a podcast management system including the graphics, front-end, back-end, and DevOps</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="resume-item">
-                    <h4>Full Stack (Spring Boot & React) Developer</h4>
-                    <h5>2023 July - Present (awaiting)</h5>
-                    <p><em>African Leadership X (ALX), Nairobi, Kenya</em></p>
-                    <p>
-                    <ul>
-                        <li>Developing end-points for the ALX groups  mobile app project.</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="resume-item">
-                    <h4>Spring Boot Developer</h4>
-                    <h5>2022 May - 2022 September</h5>
-                    <p><em>Eclectics International, Nairobi, Kenya</em></p>
-                    <p>
-                    <ul>
-                        <li>Developed numerous end-points (logos, brochures,infographics, presentations, and advertisements).</li>
-                        <li>Managed projects asynchronously while under pressure</li>
-                        <li>Prepared project documentation covering the development and delivery of the product.</li>
-                        <li>Consulted with fellow developers to come up with best third party integration sources and designs</li>
-                        <li>Created project presentations and proposals for products delivery</li>
                     </ul>
                     </p>
                 </div>
@@ -687,9 +705,9 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <!-- <li data-filter=".filter-card">Card</li> -->
+                    <li data-filter=".filter-app">Mobile</li>
                     <li data-filter=".filter-web">Web</li>
+                    <li data-filter=".filter-certification">Certification</li>
                 </ul>
             </div>
         </div>
@@ -766,75 +784,64 @@
                 </div>
             </div>
 
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Web 2</h4>
-                        <p>Web</p>
-                        <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>App 3</h4>
-                        <p>App</p>
-                        <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 1</h4>
-                        <p>Card</p>
-                        <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-7.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 3</h4>
-                        <p>Card</p>
-                        <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="{{asset('asset2/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+                    <img src="{{asset('asset2/img/goodfind1.png')}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Web 3</h4>
+                        <h4>GoodFind</h4> <!-- Web 3 -->
                         <p>Web</p>
                         <div class="portfolio-links">
-                            <a href="{{asset('asset2/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="{{asset('asset2/img/goodfind1.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web App"><i class="bx bx-plus"></i></a>
+                            <a href="https://github.com/kevinmugiira/goodf.git" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certification">
+                <div class="portfolio-wrap">
+                    <img src="{{asset('asset2/img/aws-certified-cloud-practitioner.png')}}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>AWS Cloud Practitioner Certification</h4> <!-- Web 3 -->
+                        <p>AWS</p>
+                        <div class="portfolio-links">
+                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ffcef7e8-1c74-4f47-9a15-0d9e48ffc6f1" data-share-badge-host="https://www.credly.com"></div>
+                            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <a href="{{asset('asset2/img/aws-certified-cloud-practitioner.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="AWS"><i class="bx bx-plus"></i></a>
+                            <a href="https://www.credly.com/badges/ffcef7e8-1c74-4f47-9a15-0d9e48ffc6f1/public_url" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certification">
+                <div class="portfolio-wrap">
+                    <img src="{{asset('asset2/img/icdl.jpg')}}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>International Computer Driving License</h4> <!-- Web 3 -->
+                        <p>ICDL</p>
+                        <div class="portfolio-links">
+
+                            <a href="{{asset('asset2/img/ICDL cert.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ICDL"><i class="bx bx-plus"></i></a>
+                            <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certification">
+                <div class="portfolio-wrap">
+                    <img src="{{asset('asset2/img/SoloLearnPHPCertificate.png')}}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>PHP</h4> <!-- Web 3 -->
+                        <p>PHP</p>
+                        <div class="portfolio-links">
+                            <a href="{{asset('asset2/img/SoloLearnPHPCertificate.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ICDL"><i class="bx bx-plus"></i></a>
+                            <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
